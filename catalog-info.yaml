@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "webapp-twenty8"
+  description: "apache web app"
+  labels:
+    system: web-apps
+  links:
+    - url: https://github.com/RohanAwasthi/newrepo-twenty8
+      title: "webapp-twenty8"
+      icon: code
+  tags:
+    - java
+    - azure
+    - applicationtype-webapplication
+  annotations:
+    jenkins.io/github-folder: 'apache-azure-app/webapp-twenty8'
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug:  RohanAwasthi/newrepo-twenty8
+    backstage.io/linguist: https://github.com/RohanAwasthi/newrepo-twenty8
+    azure.com/tag-selector: pid/p44
+spec:
+  type: service
+  lifecycle: development
+  owner: parth.bhargava
